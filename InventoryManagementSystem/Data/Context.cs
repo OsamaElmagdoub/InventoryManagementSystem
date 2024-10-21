@@ -1,6 +1,8 @@
 ﻿using InventoryManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Net.Mail;
 
 namespace InventoryManagementSystem.Data
 {
@@ -41,3 +43,35 @@ namespace InventoryManagementSystem.Data
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//# Database configuration
+//DATABASE_URL = Data Source = localhost; Database = Inventory_App; Trusted_Connection = True; Encrypt = false; TrustServerCertificate = true;
+
+
+//# JWT Settings
+//SECRET_KEY = xEx1Pnmr2KspDB6EWjkpxMn_QRD7DgWGnLuHuecz3zQ
+//DURATION_IN_MINUTES = 30
+//ISSUER = FoodApplication
+//AUDIENCE = FoodApplicationUsers
+
+
+//#Email Setting
+//EMAIL_ADDRESS = marwa.ashm@yahoo.com
+//EMAIL_PASSWORD = sfpn uibe poyr ixrc
+//SENDER_NAME=Food Application
+//EMAIL_HOST=smtp.mail.yahoo.com
+//EMAIL_PORT = 587
+
